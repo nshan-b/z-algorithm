@@ -1,9 +1,9 @@
 # z-algorithm
 
 ## Brief Description
-The Z algorithm is a simple linear time exact matching algorithm. Given a pattern P and string S, each Z<sub>i</sub>(S) is the length of the longest prefix of S[i..|S|] that matches a prefix of S. The Z-algorithm is a fundamental preprocessing task used for different linear-time matching algorithms (such as Boyer-Moore). Basically, if Z<sub>i</sub>(S) = |P| given P$S (where '$' is not in the alphabet of either P or S), we have found an exact match.
+The Z algorithm is a simple linear time exact matching algorithm. Given a pattern P and string S, each Z<sub>i</sub> (S) is the length of the longest prefix of S[i..|S|] that matches a prefix of S. The Z-algorithm is a fundamental preprocessing task used for different linear-time matching algorithms (such as Boyer-Moore). Basically, if Z<sub>i</sub> (S) = |P| given P$S (where '$' is not in the alphabet of either P or S), we have found an exact match.
 
-## What z_alg.py Does
+## What z_alg.py does
 Returns a list of Z-values for a given text. The text should be in the format of P$T as described above.
 
 ## Resources
